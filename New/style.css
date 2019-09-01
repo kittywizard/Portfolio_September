@@ -27,7 +27,10 @@ body {
 	margin-right: auto;
 }
 
-
+.img-thumbnail {
+	width: 25%;
+	height: 25%;
+}
 #page-header {
 	margin-left: auto;
 	margin-right: auto;
