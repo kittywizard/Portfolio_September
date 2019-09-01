@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #cccccc;
+}
+
+.container {
+	display: block;
+	background-color: #fff;
+}
+
+.jumbotron {
+	background-color: #fff;
+}
+
+.col-sm-4 {
+	background-color: #fff;
+	padding: 5px;
+}
+
+.img-responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#page-header {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+#footer {
+	display:block;
+	
+}
+
+.navbar {
+	font-size: 14px;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #ccc;
+	font-weight: 700;
+}
+
+.navbar-default {
+	border: none;
+
+}
+
+.navbar-brand {
+	display: block;
+}
+
+.img-descriptor {
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	color: #999;
+	
+}
+
+h4 {
+		color:#000000;
+		font-family:Verdana;
+		font-size: 18px;
+		font-weight: 600;
+	
+}
+
+h2 { 
+
+		color: #000000;
+		font-family: Verdana;
+		font-size: 14px;
+}
+
+.footer-line {
+	
+	height: 5px;
+	background: #0a73bb;
+	border-bottom: 1px solid #313030;
+	
+
+}
+
+.footer {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	color: #000;
+	font-weight: 700;
+	
+}
+
+.footer a {
+	color: #999;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+/* lightbox css starts here! */ 
+
+
+	ul {
+          padding:0 0 0 0;
+          margin:0 0 40px 0;
+      }
+      ul li {
+          list-style:none;
+          margin-bottom:10px;
+		 
+      }
+      ul li.bspHasModal {
+          cursor: pointer;
+      }
+      .modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0 auto;
+      }
+    .controls{
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+    .text {
+      font-family: 'Josefin Sans';
+      color:#666;
+      font-size:11px;
+      margin-bottom:10px;
+      padding:12px;
+      background:#fff;
+	  font-weight: 700;
+    }
+    @media screen and (max-width: 380px){
+       .col-xxs-12 {
+         width:100%;
+       }
+       .col-xxs-12 img {
+         width:100%;
+	   }
+	   
+	  p {
+		  font-family: 'Josefin Sans';
+		  font-size: 13px;
+		  color: #666;
+		  
+	  }
