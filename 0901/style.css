@@ -1,5 +1,12 @@
+body {
+    color: #354857;
+}
+
 .footer {
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 .padding {
@@ -10,3 +17,30 @@
     width:200px;
     height: 200px;
 }
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #09A6B6;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #B7E0E4;
+
+}
+
+.glyph  {
+    color #09A6B6;
+}
+
+.header {
+    padding-bottom: .3em;
+}
+
+
+/* 09A6B6
+    354857
+    3C4D57
+    8FCCD2
+*/
